@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=g\ posX\ posY
+comment0.target=Digito(java.awt.Graphics,\ int,\ int)
+comment1.params=g
+comment1.target=void\ dibujate(java.awt.Graphics)
+comment2.params=g\ colorDedo
+comment2.target=void\ dibujate(java.awt.Graphics,\ java.awt.Color)
+comment3.params=g\ colorDedo\ tDura
+comment3.target=void\ animate(java.awt.Graphics,\ java.awt.Color,\ int)
+comment4.params=g\ colorNuevo
+comment4.target=void\ setColor(java.awt.Graphics,\ java.awt.Color)
+comment5.params=
+comment5.target=java.awt.Color\ getColor()
+comment6.params=milisegundos
+comment6.target=void\ espera(int)
+comment6.text=\r\n\ espera\ una\ cantidad\ de\ milisegundos\ y\ desaparece.\r\n\ @param\ \ milisegundos\ \ the\ number\ \r\n
+numComments=7

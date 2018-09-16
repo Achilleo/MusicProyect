@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Diapason
+comment0.text=\r\n\ \ Esta\ clase\ representa\ un\ diapason\ de\ una\ guitarra\:\r\n\ \ 6\ cuerdas\ y\ 24\ trastes.\r\n\ \ Sobre\ las\ cuerdas\ se\ ubican\ circulos\ que\ representan\ los\ dedos.\r\n\ \ A\ cada\ dedo\ se\ asigna\ un\ color.\r\n\ \ \r\n\ @author\ \ FRoM\r\n\ @version\ 2013.08.29\r\n
+comment1.params=ancho\ alto
+comment1.target=Diapason(int,\ int)
+comment2.params=g
+comment2.target=void\ paintComponent(java.awt.Graphics)
+comment3.params=g
+comment3.target=void\ pintaDiapason(java.awt.Graphics)
+comment4.params=
+comment4.target=int\ getDIST_ENTRE_TRASTES()
+comment5.params=
+comment5.target=int\ getDIST_BORDE_NOTA_AL_AIRE()
+comment6.params=
+comment6.target=java.awt.Graphics\ returnGraph()
+numComments=7

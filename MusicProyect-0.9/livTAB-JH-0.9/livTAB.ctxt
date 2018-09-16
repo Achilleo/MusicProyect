@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=livTAB
+comment0.text=\r\n\ livTAB\ es\ una\ clase\ que\ coordina\ la\ funcionalidad.\r\n\ Despliega\ un\ diapason\ para\ la\ tablatura,\ \r\n\ permmite\ seleccionar\ un\ tema\ \=\ {solo,\ escala,\ ejercicio,\ cancion},\r\n\ ejecutarlo\ dandole\ vida\ a\ la\ tablatura\ \r\n\ y\ desacelerar/acelerar\ el\ tema.\r\n\ Crear\ ciclos\ y\ reproducirlos\ continuamente.\r\n\ \r\n\ @author\ \ \ \ \ \ FRoM\ \r\n\ @version\ \ \ \ \ 2013\r\n
+comment1.params=
+comment1.target=livTAB\ getLivTab()
+comment2.params=
+comment2.target=livTAB()
+comment3.params=
+comment3.target=void\ iniciaElementos()
+comment4.params=
+comment4.target=void\ creaGUI()
+comment5.params=
+comment5.target=Diapason\ getDiapason()
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+numComments=7

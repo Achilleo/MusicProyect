@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Lector
+comment0.text=\r\n\ Lector\ lee\ tablatura\ de\ archivo\ texto\ y\ crea\ objeto\ Tab.\r\n\r\n\ @author\ \ FRoM\r\n\ @version\ 2018\r\n
+comment1.params=
+comment1.target=void\ leeTab()
+comment1.text=\r\n\ Lee\ archivo\ texto\ que\ seleccione\ usuario.\r\n
+comment2.params=
+comment2.target=java.lang.String\ seleccionaArchivo()
+comment2.text=\r\n\ Lee\ archivo\ texto\ que\ seleccione\ usuario.\r\n
+comment3.params=strArchivo
+comment3.target=void\ creaTab(java.lang.String)
+comment3.text=\r\n\ Con\ data\ leida\ crea\ objeto\ Tab.\r\n\ @param\ \ data\ leida\ de\ archivo\ texto.\r\n
+comment4.params=
+comment4.target=Tab\ obtenTab()
+comment4.text=\r\n\ Entrega\ objeto\ Tab\ de\ lectura\ de\ archivo.\r\n\ @return\ \ objeto\ Tab.\r\n
+numComments=5

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Demo
+comment0.text=\r\n\ Demo\ prueba\ que\ la\ tablatura\ se\ escribe\ toda\ horizontalmente\r\n\ en\ el\ objeto\ Tab\ en\ cada\ uno\ de\ sus\ 6\ Strings\ y\ presenta\ en\r\n\ JTextArea.\r\n\ \r\n\ @author\ \ FRoM\r\n\ @version\ 2018\r\n
+comment1.params=
+comment1.target=Demo()
+comment2.params=
+comment2.target=void\ iniciaElementos()
+comment3.params=
+comment3.target=void\ creaVentana()
+numComments=4

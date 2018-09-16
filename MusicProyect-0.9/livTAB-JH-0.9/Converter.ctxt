@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Converter
+comment1.params=
+comment1.target=Converter\ getConverter()
+comment2.params=sixStrings
+comment2.target=java.lang.String[]\ convertDoubleDigit(java.lang.String[])
+comment3.params=s
+comment3.target=int\ convertIntoNumber(java.lang.String)
+comment4.params=diap\ chordValue\ before\ X\ after
+comment4.target=void\ convertAction(Diapason,\ int,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment5.params=s
+comment5.target=boolean\ checkMe(java.lang.String)
+numComments=6
