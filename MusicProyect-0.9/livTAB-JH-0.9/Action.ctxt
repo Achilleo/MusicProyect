@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Action
+comment1.params=diap\ chv\ bef\ curr\ aft\ col
+comment1.target=Action(Diapason,\ int,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.awt.Color)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ HammerOn\r\n
+comment2.params=
+comment2.target=void\ repaint()
+numComments=3

@@ -47,6 +47,8 @@ public class livTAB
         public void actionPerformed(ActionEvent event) 
         {
             tab.animate(diapason);
+            
+            
         }
     }
 

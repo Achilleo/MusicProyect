@@ -1,32 +1,33 @@
+import java.awt.Graphics;
+import java.awt.Color;
+import java.util.ArrayList;
 
-/**
- * Write a description of class Bend here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
-public class Bend
+public class Bend extends Action
 {
-    // instance variables - replace the example below with your own
-    private int x;
+    private String before;
+    private String current;
+    private String after;
+    private int chordValue;
+    private Diapason diapason; 
+    private String convertedString = "HIJKLMNOPQRSTUVWXYZ";
 
     /**
-     * Constructor for objects of class Bend
+     * Constructor for objects of class HammerOn
      */
-    public Bend()
+    public Bend(Diapason diap, int chv, String bef, String curr, String aft)
     {
-        new ReleaseBend();
+     
+        super(diap, chv, bef, curr, aft, Color.BLUE);
+        
+        diapason = diap;
+        chordValue = chv;
+        before = bef;
+        current = curr;
+        after = aft;
+      
+        super.repaint();
+      
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
-    }
+
 }

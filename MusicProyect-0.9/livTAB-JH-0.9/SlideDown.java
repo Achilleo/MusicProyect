@@ -2,7 +2,7 @@ import java.awt.Graphics;
 import java.awt.Color;
 import java.util.ArrayList;
 
-public class SlideUp extends Action
+public class SlideDown extends Action
 {
     private String before;
     private String current;
@@ -14,11 +14,11 @@ public class SlideUp extends Action
     /**
      * Constructor for objects of class HammerOn
      */
-    public SlideUp(Diapason diap, int chv, String bef, String curr, String aft)
+    public SlideDown(Diapason diap, int chv, String bef, String curr, String aft)
     {
      
             
-        super(diap, chv, bef, curr, aft, Color.BLACK);
+        super(diap, chv, bef, curr, aft, Color.ORANGE);
         
         diapason = diap;
         chordValue = chv;

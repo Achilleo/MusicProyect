@@ -116,18 +116,27 @@ public class Converter{
   
       public static void convertAction(Diapason diap, int chordValue, String before, String X, String after)
     {
+      //Normal = red
+      //HammerOn = green
+      //Bend = blue
+      //PullOff = pink
+      //SlideUP = black
+      //SliderDown = orange
+        
       if(X.equals("p"))
-         new PullOff();
+         new PullOff(diap, chordValue, before, X, after);
       if(X.equals("h"))
          new HammerOn(diap, chordValue, before, X, after);
-      if(X.equals("/"))
-         new SlideUp(); //missing SlideDown because \ is reserved by Java
       if(X.equals("b"))
-         new Bend();
+         new Bend(diap, chordValue, before, X, after);
+      if(X.equals("/"))
+         new SlideUp(diap, chordValue, before, X, after); 
+      if(X.equals("\\"))
+         new SlideUp(diap, chordValue, before, X, after); 
       if(X.equals("("))
          System.out.println("Do something");
       if(X.equals("r"))
-         System.out.println("Do something"); //Probably ignore it (-) as its called in Bend already
+         new Release();
       
     }
    

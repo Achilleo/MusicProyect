@@ -17,8 +17,7 @@ public class Tab
     private String[] cuerdas;
     private int chordNumber = 6;
     
-    
-    
+       
     private String[] currentMoment = new String[chordNumber];
     private String[] currentMomentNext = new String[chordNumber];
     private String[] currentMomentBefore = new String[chordNumber];
@@ -219,7 +218,7 @@ public class Tab
             painter(diapason);
             
             try{
-            Thread.sleep(1500);
+            Thread.sleep(500);
            }catch(Exception E)
           {System.out.println("No esperó");}
         
